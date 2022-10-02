@@ -1,0 +1,55 @@
+var imc = peso / altura * altura;
+
+Peso / altura 
+
+100 / 2 = 50
+50 x 2 = 100
+
+var paciente = document.querySelector("#primeiro-paciente");
+
+var tdPeso = paciente.querySelector(".info-peso");
+var peso = tdPeso.textContent;
+
+var tdAltura = paciente.querySelector(".info-altura");
+var altura = tdAltura.textContent;
+
+var imc = peso / (altura * altura);
+console.log(imc);
+
+<tbody id="tabela-pacientes">
+    <tr class="paciente" id="primeiro-paciente">
+        <td class="info-nome">Paulo</td>
+        <td class="info-peso">100</td>
+        <td class="info-altura">2.00</td>
+        <td class="info-gordura">10</td>
+        <td class="info-imc">0</td>
+    </tr>
+    
+    var paciente = document.querySelector("#primeiro-paciente");
+
+var tdPeso = paciente.querySelector(".info-peso");
+var peso = tdPeso.textContent;
+
+var tdAltura = paciente.querySelector(".info-altura");
+var altura = tdAltura.textContent;
+
+// selecionando a coluna do IMC
+var tdImc = paciente.querySelector(".info-imc");
+
+var imc = peso / (altura * altura);
+
+var paciente = document.querySelector("#primeiro-paciente");
+
+var tdPeso = paciente.querySelector(".info-peso");
+var peso = tdPeso.textContent;
+
+var tdAltura = paciente.querySelector(".info-altura");
+var altura = tdAltura.textContent;
+
+
+var tdImc = paciente.querySelector(".info-imc");
+
+var imc = peso / (altura * altura);
+
+tdImc.textContent = imc;
+
